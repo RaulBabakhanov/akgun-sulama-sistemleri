@@ -23,7 +23,7 @@ function loadEnv() {
 function readProducts() { return JSON.parse(fs.readFileSync(dataFile, 'utf8')); }
 function writeProducts(products) { fs.writeFileSync(dataFile, JSON.stringify(products, null, 2) + '\n'); }
 function send(response, status, body) {
-  response.writeHead(status, {'Content-Type': 'application/json; charset=utf-8', 'Access-Control-Allow-Origin': origin, 'Access-Control-Allow-Methods': 'GET,POST,PUT,DELETE,OPTIONS', 'Access-Control-Allow-Headers': 'Content-Type, Authorization'});
+  response.writeHead(status, {'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store', 'Access-Control-Allow-Origin': origin, 'Access-Control-Allow-Methods': 'GET,POST,PUT,DELETE,OPTIONS', 'Access-Control-Allow-Headers': 'Content-Type, Authorization'});
   response.end(body === undefined ? '' : JSON.stringify(body));
 }
 function body(request) {
