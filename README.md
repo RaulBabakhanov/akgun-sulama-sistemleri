@@ -22,3 +22,7 @@ npm.cmd start
 Site `http://localhost:5500`, yönetim paneli `http://localhost:5500/admin/`, API ise `http://localhost:3001` adresinde açılır.
 
 Ortam ayarlarını değiştirmek için ilgili klasörde `.env.example` dosyasını `.env` adıyla kopyalayın. Frontend'deki `API_BASE_URL` ile backend'deki `FRONTEND_ORIGIN` değerleri birbiriyle uyumlu olmalıdır.
+
+## Render ile yayınlama
+
+Kökteki `render.yaml`, frontend ve backend servislerini ayrı ayrı kuran Render Blueprint yapılandırmasıdır. İlk kurulumda `ADMIN_PASSWORD` gizli değeri Render panelinden girilmelidir.

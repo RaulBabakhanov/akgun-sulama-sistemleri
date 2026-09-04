@@ -1,0 +1,29 @@
+services:
+  - type: web
+    name: akgun-sulama-api
+    runtime: node
+    plan: free
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: FRONTEND_ORIGIN
+        value: https://akgun-sulama.onrender.com
+      - key: DATA_FILE
+        value: ./data/products.json
+      - key: ADMIN_PASSWORD
+        sync: false
+      - key: ADMIN_TOKEN_SECRET
+        generateValue: true
+
+  - type: web
+    name: akgun-sulama
+    runtime: node
+    plan: free
+    rootDir: frontend
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: API_BASE_URL
+        value: https://akgun-sulama-api.onrender.com
