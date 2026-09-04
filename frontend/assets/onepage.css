@@ -1,0 +1,26 @@
+html{scroll-padding-top:128px}
+body main{overflow:hidden}
+.hero{min-height:470px;height:470px;margin:0;background-attachment:scroll}
+.catalog,.trust-section,.gallery-section,.quote-section{scroll-margin-top:128px}
+.catalog{padding-top:72px;padding-bottom:80px;background:#f5f8fc}
+.catalog:before{content:"ÜRÜNLER";display:block;margin-bottom:8px;color:#168fd0;font-size:10px;font-weight:900;letter-spacing:2px}
+.catalog:after{display:none}
+.searchbar{box-shadow:none;border:1px solid #dbe5f0;border-right:5px solid #20aee2}
+.catalog-layout{max-width:1400px;margin:0 auto;grid-template-columns:220px 1fr}
+.product-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.product-card{min-height:0;border-radius:16px;box-shadow:none}
+.product-card:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(15,53,103,.1)}
+.product-visual{height:240px!important;padding:18px 24px!important}
+.product-info{padding:20px!important}
+.product-info h4{font-size:16px!important;margin-bottom:18px!important}
+.product-action{display:flex;justify-content:flex-end}
+.product-action button{width:auto;min-width:130px;height:40px;padding:0 7px 0 17px;border:0;border-radius:10px;background:#1267c7;color:#fff;display:flex;align-items:center;justify-content:space-between;gap:18px;font-size:11px;font-weight:900;letter-spacing:.7px;box-shadow:none;transition:.2s}
+.product-action button i{width:28px;height:28px;border-radius:7px;background:rgba(255,255,255,.16);display:grid;place-items:center;font-size:16px;font-style:normal}
+.product-action button:hover{background:#0b56ab;transform:translateY(-2px)}
+.trust-section{padding-top:82px;padding-bottom:82px}
+.trust-grid article{min-height:245px;border-radius:16px;box-shadow:none}
+.gallery-section{padding-top:82px;padding-bottom:82px}
+.quote-section{min-height:auto;padding-top:82px;padding-bottom:82px}
+@media(max-width:1050px){.product-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.catalog-layout{grid-template-columns:190px 1fr}.product-visual{height:220px!important}}
+@media(max-width:700px){html{scroll-padding-top:82px}.hero{min-height:520px;height:calc(100vh - 82px)}.catalog,.trust-section,.gallery-section,.quote-section{scroll-margin-top:82px}.catalog{padding:55px 16px}.catalog-layout{grid-template-columns:1fr}.product-grid{grid-template-columns:1fr}.product-visual{height:250px!important}.product-action button{min-width:130px}}
+@media(max-width:700px){.hero{min-height:380px;height:380px}}

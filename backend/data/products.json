@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "16 mm Damla Sulama Borusu",
+    "category": "Damla Sulama",
+    "price": 2450,
+    "stock": 86,
+    "image": "assets/product-drip-pipe.png",
+    "description": "UV dayanımlı, uzun ömürlü ve tarımsal kullanıma uygun damla sulama borusu.",
+    "features": "16 mm çap|UV dayanımlı gövde|Düşük basınçta verimli çalışma",
+    "campaign": true,
+    "campaignImage": "assets/campaign-drip-pipe-v2.png"
+  },
+  {
+    "id": 2,
+    "name": "Mini Yağmurlama Başlığı",
+    "category": "Yağmurlama Sistemleri",
+    "price": 189,
+    "stock": 240,
+    "image": "assets/product-sprinkler.png",
+    "description": "Tarla, sera ve bahçe uygulamalarında dengeli su dağılımı sağlayan başlık.",
+    "features": "Ayarlanabilir debi|Geniş sulama açısı|Kolay montaj",
+    "campaign": true,
+    "campaignImage": "assets/campaign-sprinkler-v2.png"
+  },
+  {
+    "id": 3,
+    "name": "2 İnç Plastik Disk Filtre",
+    "category": "Filtre Sistemleri",
+    "price": 1850,
+    "stock": 34,
+    "image": "assets/product-filter.png",
+    "description": "Sulama hattını tortu ve parçacıklara karşı koruyan, temizlenebilir disk filtre.",
+    "features": "2 inç bağlantı|Kolay temizleme|Yüksek filtrasyon kapasitesi",
+    "campaign": false,
+    "campaignImage": "assets/campaign-filter.png"
+  },
+  {
+    "id": 4,
+    "name": "PVC Küresel Vana 63 mm",
+    "category": "Vana ve Ek Parçalar",
+    "price": 420,
+    "stock": 65,
+    "image": "assets/product-valve.png",
+    "description": "Sulama hatlarında güvenilir akış kontrolü sunan dayanıklı PVC küresel vana.",
+    "features": "63 mm çap|Sızdırmaz yapı|Korozyona dayanıklı",
+    "campaign": true,
+    "campaignImage": "assets/campaign-valve.png"
+  },
+  {
+    "id": 5,
+    "name": "Otomatik Sulama Kontrol Ünitesi",
+    "category": "Otomasyon",
+    "price": 7250,
+    "stock": 12,
+    "image": "assets/product-controller.png",
+    "description": "Sulama programlarını otomatik yöneten, su ve zaman tasarrufu sağlayan kontrol ünitesi.",
+    "features": "Programlanabilir zamanlama|Çoklu bölge desteği|Kolay kullanım",
+    "campaign": false
+  },
+  {
+    "id": 6,
+    "name": "Gübre Tankı 100 Litre",
+    "category": "Gübreleme Sistemleri",
+    "price": 4900,
+    "stock": 8,
+    "image": "assets/product-fertilizer-tank.png",
+    "description": "Gübrenin sulama hattına kontrollü ve homojen biçimde verilmesini sağlar.",
+    "features": "100 litre kapasite|Basınca dayanıklı|Kolay bağlantı",
+    "campaign": true
+  }
+]

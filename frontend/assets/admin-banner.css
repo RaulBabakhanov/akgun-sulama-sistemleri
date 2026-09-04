@@ -1,0 +1,2 @@
+.welcome>div{position:relative;z-index:2}.welcome img{width:48%;max-width:680px;height:auto;align-self:stretch;margin:-38px -48px -38px auto;object-fit:cover;object-position:center;filter:none;opacity:.92;mask-image:linear-gradient(90deg,transparent 0,#000 28%);-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 28%)}
+@media(max-width:700px){.welcome img{display:none}}
