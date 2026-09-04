@@ -49,7 +49,7 @@ const server = http.createServer((request, response) => {
     );
   }
 
-  const requestedPath = pathname.endsWith('/') ? `${pathname}index.html` : pathname;
+  const requestedPath = pathname === '/' ? '/index.html' : pathname.endsWith('/') ? `${pathname}index.html` : pathname;
   const filePath = path.resolve(publicRoot, `.${requestedPath}`);
   const relativePath = path.relative(publicRoot, filePath);
 
